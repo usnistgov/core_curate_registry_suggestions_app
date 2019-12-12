@@ -1,0 +1,8 @@
+<form id="disambiguate-form" method="post">
+    {% csrf_token %}
+    {{ disambiguate_form }}
+    <div id="disambiguate-errors" style="color:red;">
+        {{ errors | safe}}
+    </div>
+    <br/>
+</form>

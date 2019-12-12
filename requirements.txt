@@ -3,3 +3,4 @@ Django==1.11.23
 https://github.com/MongoEngine/django-mongoengine/tarball/v0.2.1#egg=django-mongoengine-0.2.1
 mock==2.0.0
 mongoengine==0.11.0
+SPARQLWrapper==1.8.4

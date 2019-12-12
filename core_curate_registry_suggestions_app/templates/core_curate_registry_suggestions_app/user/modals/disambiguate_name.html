@@ -1,0 +1,14 @@
+{% extends 'core_main_app/_render/admin/theme/tools/modal.html' %}
+
+{% block modal_id %}disambiguate-name-modal{% endblock %}
+{% block modal_title %}Choose the organization{% endblock %}
+
+{% block modal_body %}
+Please choose one of the following organization you meant. If you don't want to prefill the form, select 'None':
+<div id="disambiguate-form">
+</div>
+{% endblock %}
+
+{% block modal_footer %}
+<a id="btn-disambiguate-name" class="btn btn-default" href="#"><i class="fa fa-check"></i> Ok</a>
+{% endblock %}
